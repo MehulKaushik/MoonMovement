@@ -1,0 +1,131 @@
+
+.sidebar{
+    display: flex;
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+}
+#top_page{
+    display: flex;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.article{
+    padding-left: 50px;
+}
+li {
+    margin-bottom: 10px; 
+    color:#777777
+  }
+.top{
+    display:flex;
+    flex-direction: column;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+}
+.sidebar_list{
+    list-style: none;
+    font-family: aktiv-grotesk,sans-serif;
+    font-size: 18px;
+    line-height: 19.8px;
+    text-align: left;
+    letter-spacing: -0.36px;
+
+}
+.links{
+    text-decoration: none;
+    font-family: aktiv-grotesk,sans-serif;
+    font-size: 40.5px;
+    line-height: 44.55px;
+    text-align: start;
+    letter-spacing: -2.025;
+    color: #000000;
+}
+.other_news{
+    list-style: none;
+    font-family: aktiv-grotesk,sans-serif;
+    font-size: 22.5px;
+    line-height: 23.625px;
+    text-align: start;
+    letter-spacing: -0.5px;
+}
+.news_cat{
+    font-family:helvetica,arial,sans-serif;
+    text-decoration: none;
+    font-size:14px;
+    line-height:14px;
+    text-align:start;
+    letter-spacing: normal;
+    color:#17CC37
+}
+.news_link{
+    font-size: aktiv-grotesk,sans-serif;
+    text-decoration: none;
+    font-size:22.5px;
+    line-height: 23.625px;
+    text-align: start;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+.author{
+    font-size: aktiv-grotesk,sans-serif;
+    text-decoration: none;
+    font-size:14.625px;
+    line-height: 25.8862px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #333333;
+}
+#join{
+    color:#fdc006;
+    font-size:19.125px;
+    line-height:33.8512px;
+    text-align:left;
+}
+table{
+    border:2px solid #17CC37;
+    text-align: left;
+}
+#secoundrow{
+    text-align: center;
+}
+#firstcol{
+    text-align: start;
+    font-family: helvetica,arial,sans-serif;
+    font-size:20px;
+    line-height: 35.4px;
+    letter-spacing: normal;
+    color:#17CC37
+}
+.right_bar{
+    display: flex;
+    flex-direction: column;
+}
+/* .other_news{
+    padding-inline-start: 0px;
+} */
+.news{
+    flex-direction: row;
+}
+.heading{
+    flex-direction: row;
+}
+.ads{
+    padding: 5px,5px,0px,30px;
+}
+/* .stick{
+    border-radius: 5%;
+    border-color:#000000;
+    background-color:#17CC37;
+    width: 100px;
+    height: 100px;
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+} */
